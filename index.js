@@ -156,8 +156,7 @@ function removeFlavorByName(array, flavor){
   return array;
 }
 console.log("task 6:", removeFlavorByName(originalFlavors, "Rocky Road"));
-
-
+ 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 7: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
 July 7th is "World Chocolate Day" and Baskin Robins wants to create promotional materials highlighting all of their chocolate flavors. 
@@ -178,9 +177,16 @@ Use the filterByWord function below to do the following:
 */
 
 
-function filterByWord(/*your code here*/){
-  /*your code here*/
+function filterByWord(array, flavor){
+  let filteredArray = [];
+  for(let i = 0; i < array.length; i++){
+    if(array[i].includes(flavor)){
+      filteredArray.push(array[i]);
+    }
+  }
+  return filteredArray;
 }
+console.log('task 7:', filterByWord(originalFlavors, "Chocolate"));
 
 
 
