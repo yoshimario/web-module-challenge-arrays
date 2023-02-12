@@ -69,9 +69,9 @@ function is31Flavors(array){
   } else{
     return false;
   }
-  
+  console.log('task 2', is31Flavors(originalFlavors));
  }
- console.log('task 2:', is31Flavors(originalFlavors));
+
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
